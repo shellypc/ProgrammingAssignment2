@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve accesses the object 'x' created by makeVector 
+## cacheSolve accesses the object 'x' created by makeCacheMatrix 
 ##  and if an inverse does not exist it creates one
 
 cacheSolve <- function(x, ...) {
